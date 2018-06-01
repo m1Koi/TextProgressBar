@@ -2,7 +2,7 @@
 
 ## 效果如下
 
-![expand.gif](https://upload-images.jianshu.io/upload_images/4029874-2b9c5c6c8e5ffa3d.gif?imageMogr2/auto-orient/strip)
+![TextProgressBar.gif](https://upload-images.jianshu.io/upload_images/4029874-1c8f2d71005367a5.gif?imageMogr2/auto-orient/strip)
 
 ​	这个需求来自于项目，产品的意图是做一个冲刺进度条。大概意思是，下面的文字是汽车销售台数区间，而上面是每个区间所对应的返点费率。由于这些数据都是来自于后台，所以考虑到自定义View来实现
 
