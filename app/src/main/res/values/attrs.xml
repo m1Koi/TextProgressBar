@@ -7,7 +7,6 @@
         <attr name="barTextSize" format="dimension" />
         <attr name="topTextMargin" format="dimension" />
         <attr name="bottomTextMargin" format="dimension" />
-        <attr name="indicatorSrc" format="reference" />
         <attr name="barStartColor" format="color" />
         <attr name="barEndColor" format="color"/>
     </declare-styleable>
