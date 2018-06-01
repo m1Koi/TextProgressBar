@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextProgressBar">
+        <attr name="barHeight" format="dimension" />
+        <attr name="trackColor" format="color" />
+        <attr name="barTextColor" format="color" />
+        <attr name="barTextSize" format="dimension" />
+        <attr name="topTextMargin" format="dimension" />
+        <attr name="bottomTextMargin" format="dimension" />
+        <attr name="indicatorSrc" format="reference" />
+        <attr name="barStartColor" format="color" />
+        <attr name="barEndColor" format="color"/>
+    </declare-styleable>
+</resources>

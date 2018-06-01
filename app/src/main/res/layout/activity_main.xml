@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.m1ku.textprogressbar.TextProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:barHeight="8dp"
+        app:barTextSize="13sp"
+        app:bottomTextMargin="10dp"
+        app:topTextMargin="15dp" />
+
+    <com.m1ku.textprogressbar.TextProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        app:barEndColor="@color/colorAccent"
+        app:barHeight="8dp"
+        app:barStartColor="@color/colorPrimary"
+        app:barTextSize="13sp"
+        app:bottomTextMargin="10dp"
+        app:topTextMargin="15dp" />
+
+    <com.m1ku.textprogressbar.TextProgressBar
+        android:id="@+id/progressBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:barEndColor="@color/colorPrimary"
+        app:barHeight="8dp"
+        app:barStartColor="@color/colorPrimary"
+        app:barTextSize="15sp"
+        app:bottomTextMargin="15dp"
+        app:topTextMargin="20dp"
+        app:trackColor="@color/colorAccent" />
+</LinearLayout>
